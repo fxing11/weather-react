@@ -36,11 +36,21 @@ export default function Weather() {
 
   return (
     <div className="container">
+      <h1>Weather App</h1>
       <form onSubmit={handleSubmit}>
         <input type="search" placeholder="enter a city" onChange={updateCity} />
         <input type="submit" value="search" />
       </form>
       <div>{message}</div>
+      <small>
+        <a
+          href="https://github.com/fxing11/Vanilla-weather-app"
+          target="_blank"
+        >
+          Open source code
+        </a>
+        by Fei Xing
+      </small>
     </div>
   );
 }
