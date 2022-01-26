@@ -43,10 +43,7 @@ export default function Weather() {
       </form>
       <div>{message}</div>
       <small>
-        <a
-          href="https://github.com/fxing11/Vanilla-weather-app"
-          target="_blank"
-        >
+        <a href="https://github.com/fxing11/weather-react" target="_blank">
           Open source code
         </a>
         by Fei Xing
