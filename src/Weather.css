@@ -46,10 +46,6 @@
   margin-left: 5px;
   line-height: 1;
 }
-.weather canvas {
-  float: left;
-  margin-right: 10px;
-}
 
 .weatherTemperature a {
   text-decoration: none;
